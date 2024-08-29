@@ -10,8 +10,8 @@ body {
   background-color: hsl(30, 54%, 90%);
 }
 .image {
-  width: 100%;
-  max-width: 600px;
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto;
   border-radius: 20px;
   overflow: hidden;
@@ -22,7 +22,36 @@ body {
   height: auto;
   display: block;
 }
+.title {
+  color: hsl(24, 5%, 18%);
+  font-weight:700 ;
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  margin: 20px 30px 20px;
+  
+}
+.para{
+  font-size: 14px;
+  font-family:"Young Serif", serif;
+  color: hsl(30, 10%, 34%);
+  margin: 20px 30px 20px;
+}
 .main {
-  width: 60%;
+  width: 50%;
   background-color: hsl(0, 0%, 100%);
+}
+.menu{
+  margin: 20px 30px 20px;
+  background-color: hsl(330, 100%, 98%);
+  height: auto;
+  padding: 20px;
+}
+menu ,strong{
+  font-family:"Young Serif", serif;
+  font-size: 15px;
+  color:  hsl(332, 51%, 32%);
+  
+}
+li,strong{
+  color: hsl(24, 5%, 18%);
 }
