@@ -46,12 +46,43 @@ body {
   height: auto;
   padding: 20px;
 }
-menu ,strong{
+.menu > strong{
   font-family:"Young Serif", serif;
   font-size: 15px;
   color:  hsl(332, 51%, 32%);
   
 }
-li,strong{
+.menu li {
   color: hsl(24, 5%, 18%);
+}
+
+.menu li strong {
+  font-family: "Young Serif", serif;
+  font-size: 15px;
+  color: hsl(24, 5%, 18%);
+}
+.ingredients > h2{
+  color: hsl(14, 45%, 36%);
+  margin: 10px 30px 20px;
+  font-family: "Young Serif", serif;
+  font-size: 19px;
+}
+.ingredients ul li{
+  margin-bottom: 10px; 
+  color: hsl(24, 5%, 18%);
+
+}
+.separator {
+  border: none; /* Remove default border */
+  border-top: 1px solid #e3e3e3; /* Set the color and thickness of the line */
+  width: 95%; /* Adjust the width of the line */
+  margin: 20px auto; /* Center the line and add vertical space */
+}
+
+.instruction > h2 {
+  color: hsl(14, 45%, 36%);
+  margin: 10px 30px 20px;
+  font-family: "Young Serif", serif;
+  font-size: 19px;
+
 }
