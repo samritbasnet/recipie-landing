@@ -1,0 +1,28 @@
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background-color: hsl(30, 54%, 90%);
+}
+.image {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.main {
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+}
